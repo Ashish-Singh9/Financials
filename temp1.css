@@ -1,0 +1,84 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}#OptionDefault{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}#OptionDefault input,select{
+    border:none;
+    outline:none;
+    border-bottom: 1px solid black;
+}#OptionDefault #SearchForm button{
+    outline:none;
+    border:none;
+    background-color: transparent;
+    font-size:20px;
+}#SearchForm input{
+    width:80vw;
+}.modal-body button{
+    outline:none;
+    border:none;
+    background-color: teal;
+    color:white;
+    padding:5px 10px 5px 10px;
+    border-radius: 2rem;
+}#OptionDefault #ForApply button{
+    outline:none;
+    border:none;
+    background-color: teal;
+    color:white;
+}#Main_nav_func{
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}#Main_nav_func img{
+    width:80px;
+    height:80px;
+}#Main_nav_func a{
+    font-size:20px;
+}#Identifier a{
+    font-size: 20px;
+}.Owner_Image{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}.Show_Card_Book{
+    height:300px;
+    width:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    transition: 0.5s all ease-in-out;
+}.Show_Card_Book:hover{
+    border-radius: 0rem;
+    box-shadow: 0px 10px 10px black;
+}.Show_Book_Owner{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}#Overflow_Control{
+    overflow-wrap: break-word;
+}@media(max-width:1300px){
+    .Show_Card_Book{
+        width:150px;
+        height:250px;
+    }
+}@media(max-width:500px){
+    #OptionDefault input{
+        width:70vw;
+    }
+}@media(max-width:400px){
+    .Show_Card_Book{
+        width:100px;
+        height:150px;
+    }.Owner_Image{
+        height:40px;
+        width:40px;
+    }
+}

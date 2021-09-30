@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}nav{
+    font-size: 25px;
+}nav button{
+    padding:0px 10px 0px 10px;
+    border:none;
+    background-color: transparent;
+}#piechart_3d,#piechart_3d1{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:450px;
+}.Options a{
+    font-size:15px;
+    background-color: black;
+    color:yellow;
+    padding:5px 10px 5px 10px;
+    border-radius: 1rem;
+}.Options a:hover{
+    color:yellow;
+}#Edit a{
+    font-size:20px;
+    text-decoration: none;
+    background-color: black;
+    padding:10px 10px 10px 10px;
+    color:yellow;
+    border-radius: 50%;
+}@media(max-width:500px){
+    #piechart_3d,#piechart_3d1{
+        height:auto;
+    }
+}
